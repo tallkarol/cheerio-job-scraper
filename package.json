@@ -1,0 +1,27 @@
+{
+  "name": "cheerio-job-scraper",
+  "version": "1.0.0",
+  "description": "an express nodeJS application for simultaneously scraping multiple job sites based on user inputed queries",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tallkarol/cheerio-job-scraper.git"
+  },
+  "author": "karol buczek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tallkarol/cheerio-job-scraper/issues"
+  },
+  "homepage": "https://github.com/tallkarol/cheerio-job-scraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0"
+  }
+}
